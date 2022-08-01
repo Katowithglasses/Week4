@@ -1,0 +1,76 @@
+#navigate{
+    box-sizing: border-box;
+    padding: 6px;
+    margin: 0px;
+}
+
+#head{
+    box-sizing: border-box;
+    padding: 60px;
+}
+
+footer{
+    box-sizing: border-box;
+    padding: 35px;
+    text-align: right ;
+}
+
+aside{
+    text-align: right;
+}
+
+#head{
+
+       animation: anim 1s ease 0s infinite normal forwards;
+ 
+}
+
+@keyframes anim {
+
+    0% {
+
+        color: black;
+
+    }
+
+    100% {
+
+           color: transparent;
+
+    }
+
+}
+
+#head {
+background-image: url("assets\image\204398-OZ3P4A-964.png");
+}
+
+h1{
+    color: #003395;
+    }
+
+#head p{
+font-weight: bold;
+}
+#navigate {
+    background-color: #003395;
+}
+
+.menu:hover{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    transition: 1s linear;
+    transform: scale(1.0);
+    color: white ;
+}
+
+h2{
+    color: #003395;
+    text-decoration-line: overline underline;
+}
+
+footer{
+    background: linear-gradient(180deg, #003395 0%, #00205F 100%);
+    color: white;
+}
