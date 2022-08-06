@@ -13,15 +13,39 @@
     height: 60px;
 }
 
-#s1 main {
+#s1 {
     display: flex;
-    flex-direction: column;
-    align-content: center;
+  flex-direction: column;
+  flex-basis: 45%;
+  align-self: baseline;
+  align-items: flex-start;
+
+}
+
+#s2 {
+    display: flex;
+  flex-direction: column;
+  flex-basis: 45%;
+  align-self: baseline;
+  align-items: flex-start;
+
+}
+
+#s3 {
+    display: flex;
+  flex-direction: column;
+  flex-basis: 45%;
+  align-self: baseline;
+  align-items: flex-start;
+
 }
 
 main{
     display: flex;
     flex-wrap: wrap;
+    height: 45%;
+    width: 100%;
+  
 }
 
 footer{
